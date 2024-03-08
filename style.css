@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    border: 2px double black;
+    background-color: antiquewhite;
+    color: red;
+    
+}
+#pantry-box{
+    margin: 10px;
+    padding: 6px;
+    box-sizing: border-box;
+    
+    
+}
+h2{
+    border: 2px double;
+    padding: 5px;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+#bread-box{
+    border: 2px double;
+    box-sizing: border-box;
+    max-width: 45%;
+    min-height: 100px;
+    
+    
+    
+    
+}
+#header-box{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+h3{
+    border: 2px double;
+    padding: 4px;
+    margin: 5px;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: bisque;
+}
+#pantry{
+    display: flex;
+    justify-content: space-around;
+    height: 325px;
+    box-sizing: border-box;
+}
+.list{
+    border: 2px solid;
+    padding: 30px;
+    margin: 5px;
+    height: 200px;
+    width: 255px;
+    padding-right: 120px;
+    background-color: bisque;
+    
+}
+#images{
+    display: flex;
+    justify-content: space-around;
+}
