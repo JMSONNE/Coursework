@@ -1,0 +1,28 @@
+$text-color: darkred;
+$text-size: 24px;
+$border: 2px black solid;
+
+.book{
+    color: $text-color;
+    font-size: $text-size;
+    border: $border;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+h1{
+    text-align: center;
+    color: $text-color;
+    border: $border;
+}
+a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+body{
+    text-align: center;
+}

@@ -1,66 +1,25 @@
-h1{
-    text-align: center;
-    border: 2px double black;
-    background-color: antiquewhite;
-    color: red;
-    
+.book {
+  color: darkred;
+  font-size: 24px;
+  border: 2px black solid;
+  margin: 25px;
+  display: flex;
+  justify-content: center;
 }
-#pantry-box{
-    margin: 10px;
-    padding: 6px;
-    box-sizing: border-box;
-    
-    
+
+h1 {
+  text-align: center;
+  color: darkred;
+  border: 2px black solid;
 }
-h2{
-    border: 2px double;
-    padding: 5px;
-    text-align: center;
-    background-color: blanchedalmond;
+
+a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
 }
-#bread-box{
-    border: 2px double;
-    box-sizing: border-box;
-    max-width: 45%;
-    min-height: 100px;
-    
-    
-    
-    
-}
-#header-box{
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-around;
-    
-    
-    
-}
-h3{
-    border: 2px double;
-    padding: 4px;
-    margin: 5px;
-    padding-left: 20%;
-    padding-right: 20%;
-    background-color: bisque;
-}
-#pantry{
-    display: flex;
-    justify-content: space-around;
-    height: 325px;
-    box-sizing: border-box;
-}
-.list{
-    border: 2px solid;
-    padding: 30px;
-    margin: 5px;
-    height: 200px;
-    width: 255px;
-    padding-right: 120px;
-    background-color: bisque;
-    
-}
-#images{
-    display: flex;
-    justify-content: space-around;
-}
+
+body {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
